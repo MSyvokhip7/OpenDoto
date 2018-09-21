@@ -76,11 +76,5 @@ openDoto()
 # print(raw)
 # print(match_timestats(raw))
 #print(detailed_match_stats(str(recent_match[0]['match_id'])))
-print(players)
-print(recent_match)
-
-
-url = 'https://api.opendota.com/api/distributions'
-response = requests.get(url)
-res = json.loads(response.text)
-print(res)
+#print(players)
+#print(recent_match)
