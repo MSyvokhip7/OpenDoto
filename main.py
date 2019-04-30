@@ -72,12 +72,9 @@ def match_timestats(match):
 
 openDoto()
 
-# raw = recent_matches('241221633')
-# print(raw)
-# print(match_timestats(raw))
-#print(detailed_match_stats(str(recent_match[0]['match_id'])))
-#print(players)
-#print(recent_match)
-
-
-asdkjfaskjdhfaksj
+raw = recent_matches('241221633')
+print(raw)
+print(match_timestats(raw))
+print(detailed_match_stats(str(recent_match[0]['match_id'])))
+print(players)
+print(recent_match)
